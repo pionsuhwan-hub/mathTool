@@ -7,3 +7,9 @@ function minus(a,b){
   const minus = a-b;
   return minus;
 }
+
+function muti(a,b){
+  const muti = a*b;
+  return muti;
+}
+

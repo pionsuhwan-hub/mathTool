@@ -19,6 +19,6 @@ function muti(a,b){
 a=1;
 b=2;
 
-console.log(`더하기 ${sum(a,b)}입니다.`);
-console.log(`뺴기 ${minus(a,b)}입니다.`);
-console.log(`곱하기 ${muti(a,b)}입니다.`);
+console.log(`${a} + ${b} 더하기 ${sum(a,b)} 입니다.`);
+console.log(`${a} - ${b} 뺴기 ${minus(a,b)} 입니다.`);
+console.log(`${a} * ${b} 곱하기 ${muti(a,b)} 입니다.`);

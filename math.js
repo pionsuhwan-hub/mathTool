@@ -1,5 +1,5 @@
-const a;
-const b;
+let a;
+let b;
 
 function sum(a,b){
   const sum = a+b;
@@ -16,3 +16,9 @@ function muti(a,b){
   return muti;
 }
 
+a=1;
+b=2;
+
+console.log(`더하기 ${sum(a,b)}입니다.`);
+console.log(`뺴기 ${minus(a,b)}입니다.`);
+console.log(`곱하기 ${muti(a,b)}입니다.`);
